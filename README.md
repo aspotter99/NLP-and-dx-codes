@@ -18,7 +18,7 @@ Model and analysis by Amanda S. Potter
 - [Reports](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/Reports)
 - [src](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/src)
 - [Presentation](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/MVP_pres.pdf)
-- [Project Conda Environment](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/environment.yml)
+- [Project Conda Environment](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/NLP.yml)
 
 # Introduction 
 
