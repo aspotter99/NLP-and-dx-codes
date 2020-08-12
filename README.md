@@ -73,6 +73,6 @@ The first line of the yml file sets the new environment's name. For details see 
 Activate the new environment: conda activate myenv
 Verify that the new environment was installed correctly:
 
-####Creating the database:
+#### Creating the database:
 Information on downloading and creating the database used for this project can be found [here](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/Data/README.md)
 
