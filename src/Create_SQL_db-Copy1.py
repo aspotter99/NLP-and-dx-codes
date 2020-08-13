@@ -1,3 +1,18 @@
+## INSTRUCTIONS FOR DOWNLOADING DATA AND SETTING UP SQL FOR THIS PROJECT 
+
+Data can be found at https://physionet.org/content/mimiciii/1.4/
+
+Researchers are required to formally request access via a process documented on the MIMIC website. 
+There are two key steps that must be completed before access is granted:
+
+the researcher must complete a recognized course in protecting human research participants that includes Health Insurance Portability and Accountability Act (HIPAA) requirements.
+
+the researcher must sign a data use agreement, which outlines appropriate data usage and security standards, and forbids efforts to identify individual patients.
+
+Approval requires at least a week. Once an application has been approved the researcher will receive emails containing instructions for downloading the database from PhysioNetWorks, a restricted access component of PhysioNet.
+
+## TO CREATE SQL DATABASE AND POPULATE TABLES.
+
 #create database object
 conn = sl.connect('patient_data.db')
 c = conn.cursor()

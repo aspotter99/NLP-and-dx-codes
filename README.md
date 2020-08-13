@@ -55,7 +55,7 @@ The first model used diagnoses that were on the patient admission record, using 
 
 ![](./Reports/images/ConfMat_ICD10.png)
 
-Additional information on model building and iterations can be found [here](https:github.com/aspotter99/NLP-and-dx-codes/tree/master/Reports/Report-Notebook)
+Additional information on model building and iterations can be found [here](https:github.com/aspotter99/NLP-and-dx-codes/tree/master/Reports/Report_Notebook)
 
 
 ## Conclusions and Recommendations 

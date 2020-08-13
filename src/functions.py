@@ -1,3 +1,6 @@
+#FUNCTIONS USED IN THIS PROJECT
+
+
 def get_wordnet_pos(treebank_tag):
     '''
     Translate nltk POS to wordnet tags

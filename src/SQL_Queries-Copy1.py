@@ -1,3 +1,6 @@
+# QUERIES USED IN THIS PROJECT (TO BE FILLED IN ON COMPLETION OF FINAL REPO)
+
+
 def expanded_notes_data:
     SELECT adm.subject_id, 
         pt.gender,
