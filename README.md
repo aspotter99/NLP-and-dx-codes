@@ -75,5 +75,5 @@ Activate the new environment: conda activate myenv
 
 
 #### Creating the database:
-Information on downloading and creating the database used for this project can be found [here](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/Data/SQL_tables_setup.jpynb)
+Information on downloading and creating the database used for this project can be found [here](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/Data/README.md)
 
