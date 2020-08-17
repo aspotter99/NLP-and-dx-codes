@@ -33,7 +33,7 @@ Data used in this project was obtained from https://mimic.physionet.org
 
 MIMIC-IV, a freely accessible critical care database. Johnson AEW, Pollard TJ, Shen L, Lehman L, Feng M, Ghassemi M, Moody B, Szolovits P, Celi LA, and Mark RG. Scientific Data (2016). DOI: 10.1038/sdata.2016.35. Available from: http://www.nature.com/articles/sdata201635
 
-Additional information on the specific data used for this project is outlined [here](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/data/README.md)
+Additional information on the specific data used for this project is outlined [here](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/Data/README.md)
 
 ## Definitions
 - Medical Record: A complete recording of an individual patient's key clinical data and medical history.  This includes demographics, vital signs, diagnoses, procesured, medications, treatment plans, notes, diagnostic tests, immunizations, etc.
@@ -56,7 +56,7 @@ The first model used diagnoses that were on the patient admission record, using 
 
 ![](/Reports/Images/ConfMat_ICD10.png)
 
-Additional information on model building and iterations can be found [here](https:github.com/aspotter99/NLP-and-dx-codes/tree/master/Reports/Report_Notebook)
+Additional information on model building and iterations can be found [here](https:github.com/aspotter99/NLP-and-dx-codes/tree/master/Reports/Report_Notebook/Report_Notebook /MVP_report.ipynb)
 
 
 ## Conclusions and Recommendations 
@@ -75,5 +75,5 @@ Activate the new environment: conda activate myenv
 
 
 #### Creating the database:
-Information on downloading and creating the database used for this project can be found [here](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/Data/SQL_table_setup.jpynb)
+Information on downloading and creating the database used for this project can be found [here](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/Data/SQL_tables_setup.jpynb)
 
