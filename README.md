@@ -23,7 +23,7 @@ Model and analysis by Amanda S. Potter
 
 ## Introduction 
 
-Hospitals depend on having accurate medical coding that reflects all events in a patient encounter from the time of admission to discharge.  Coding inaccuracies can cause claim denials and result in lost revenue for a hospital.  
+Hospitals depend on having accurate medical coding that reflects all events in a patient encounter from the time of admission to discharge.  Coding inaccuracies can cause claim denials and result in lost revenue for a hospital.  This is primarily a concern for a hospital's revenue cycle executive.  
 
 ## Goal 
 This project aims to use Natural Language Processing to correctly predict an ICD-10 code using physician notes from a patient's medical record. 
@@ -31,14 +31,15 @@ This project aims to use Natural Language Processing to correctly predict an ICD
 ## Data Set
 Data used in this project was obtained from https://mimic.physionet.org
 
-MIMIC-III, a freely accessible critical care database. Johnson AEW, Pollard TJ, Shen L, Lehman L, Feng M, Ghassemi M, Moody B, Szolovits P, Celi LA, and Mark RG. Scientific Data (2016). DOI: 10.1038/sdata.2016.35. Available from: http://www.nature.com/articles/sdata201635
+MIMIC-IV, a freely accessible critical care database. Johnson AEW, Pollard TJ, Shen L, Lehman L, Feng M, Ghassemi M, Moody B, Szolovits P, Celi LA, and Mark RG. Scientific Data (2016). DOI: 10.1038/sdata.2016.35. Available from: http://www.nature.com/articles/sdata201635
 
 Additional information on the specific data used for this project is outlined [here](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/data/README.md)
 
 ## Definitions
 - Medical Record: A complete recording of an individual patient's key clinical data and medical history.  This includes demographics, vital signs, diagnoses, procesured, medications, treatment plans, notes, diagnostic tests, immunizations, etc.
 - Medical Coding:  Transformation of clinical data from sources such as physician notes into universal alphanumeric codes.  The currently used code set is ICD-10. 
-- DRG: Diagnosis Related Group:  Classification system that groups patients based on diagnosis and procedure codes.  A DRG payment will cover all charges associated with an inpatient stay from admission to discharge.  These DRGs are weighted to determine the daily allowable reimbursement.
+- ICD:  nternational Classification of Diseases and is the global health information standard for mortality and morbidity statistics.
+- DRG: A diagnosis-related group (DRG) is a patient classification system that standardizes prospective payment to hospitals and encourages cost containment initiatives. In general, a DRG payment covers all charges associated with an inpatient stay from the time of admission to discharge. (hmsa.com)
 
 ## Methodology
 This project will utilize Natural Language Processing and a Naive Bayes Multinomial classification algorithm.  
@@ -53,7 +54,7 @@ The first model was built using two diagnoses (GASTROINTESTINAL BLEED and INTRAC
 
 The first model used diagnoses that were on the patient admission record, using this with the discharge summary notes resulted in a very accurate model, because the diagnosis was in that discharge summary.  Because of this, 2 ICD-10 codes that related to the initial diagnoses were chosen and then the model was trained using those.  The final model utilizes a count vectorizer and only considers discharge summary notes to identify 2 ICD-10 codes - I91.9 and K92.2.  This binary classification model has an accuracy of .96.
 
-![](/Reports/images/ConfMat_ICD10.png)
+![](/Reports/Images/ConfMat_ICD10.png)
 
 Additional information on model building and iterations can be found [here](https:github.com/aspotter99/NLP-and-dx-codes/tree/master/Reports/Report_Notebook)
 
@@ -71,8 +72,8 @@ Create the environment from the NLP.yml file:
 conda env create -f NLP.yml
 The first line of the yml file sets the new environment's name. For details see Creating an environment file manually.
 Activate the new environment: conda activate myenv
-Verify that the new environment was installed correctly:
+
 
 #### Creating the database:
-Information on downloading and creating the database used for this project can be found [here](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/scr/Create_SQL_db-Copy1.py)
+Information on downloading and creating the database used for this project can be found [here](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/Data/SQL_table_setup.jpynb)
 

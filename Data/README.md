@@ -1,4 +1,6 @@
-## This folder houes all data used in this project.  The instructions for creating the database can be found in the SQL_tables_setup.jpynb notebook.  .csv files that are generated in the notebooks are also housed here.
+## This folder houes all data used in this project.  
+### The instructions for creating the database can be found in the SQL_tables_setup.jpynb notebook.  
+### All .csv files that are generated in the notebooks will be housed here.
 
 #### The data tables used in this project are as follows:
 
