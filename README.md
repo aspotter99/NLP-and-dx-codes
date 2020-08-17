@@ -48,19 +48,19 @@ The dataset was labeled with both a diagnosis and a diagnosis code which were us
 Because we are concerned with accurately predicting both of the diagnosis codes, the model will use accuracy to evaluate performance.
 
 ## Model Summary 
-The first model was built using two diagnoses (GASTROINTESTINAL BLEED and INTRACRANIAL HEMORRHAGE).  Using a count vectorizer, the first model performed fairly well, with an accuracy score of .77.
+The first model was built using two diagnoses (GASTROINTESTINAL BLEED and INTRACRANIAL HEMORRHAGE).  Using a count vectorizer, the first model performed fairly well, with an accuracy score of .81 - running the model with a tfidf vectorizer instead of a count vectorizer did not improve the accuracy of the model.
 
-![](/Reports/Images/ConfMat_FSM.png)
+![](/Reports/images/ConfMat_FSM_test.png)
 
-The first model used diagnoses that were on the patient admission record, using this with the discharge summary notes resulted in a very accurate model, because the diagnosis was in that discharge summary.  Because of this, 2 ICD-10 codes that related to the initial diagnoses were chosen and then the model was trained using those.  The final model utilizes a count vectorizer and only considers discharge summary notes to identify 2 ICD-10 codes - I91.9 and K92.2.  This binary classification model has an accuracy of .96.
+The first model used diagnoses that were on the patient admission record, using this with the discharge summary notes resulted in a very accurate model, because the diagnosis was in that discharge summary.  Because of this, 2 ICD-10 codes that related to the initial diagnoses were chosen and then the model was trained using those.  The final model utilizes a count vectorizer and only considers discharge summary notes to identify 2 ICD-10 codes - I61.9 and K92.2.  This binary classification model has an accuracy of .98.
 
-![](/Reports/Images/ConfMat_ICD10.png)
+![](/Reports/Images/ConfMat_DS_IDC-10_test.png)
 
 Additional information on model building and iterations can be found [here](https:github.com/aspotter99/NLP-and-dx-codes/tree/master/Reports/Report_Notebook/Report_Notebook /MVP_report.ipynb)
 
 
 ## Conclusions and Recommendations 
-It is possible to use NLP to correctly identify the correct ICD-10 code from physician notes.  
+It is possible to use NLP to identify the correct ICD-10 code from physician discharge summary notes.  
 Some next steps would be to bring in additional codes to train and test the model - rarely is medical coding a binary decision.  In addition, this type of processing of physician notes could be used to determine if a DRG should have a CC/MCC - these indicate that a patient had additional underlying conditions that require a higher level of care.  Missing CC/MCC DRG can cost hospitals a great deal of money due to lower reimbursements than were appropriate for the level of care that was received.  
 
 ## Reproducing This Project
