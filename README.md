@@ -51,10 +51,10 @@ Because we are concerned with accurately predicting both of the diagnosis codes,
 The first model was built using two diagnoses (GASTROINTESTINAL BLEED and INTRACRANIAL HEMORRHAGE).  Using a count vectorizer, the first model performed fairly well, with an accuracy score of .77 - running the model with a tfidf vectorizer instead of a count vectorizer did not improve the accuracy of the model.
 
 
-The first model used diagnoses that were on the patient admission record, using this with the discharge summary notes resulted in a very accurate model, because the diagnosis was in that discharge summary.  Because of this, 2 ICD-10 codes that related to the initial diagnoses were chosen and then the model was trained using those.  The final model utilizes a count vectorizer and only considers discharge summary notes to identify 2 ICD-10 codes - I61.9 and K92.2.  This binary classification model has an accuracy of .97.
+The first model used diagnoses that were on the patient admission record, using this with the discharge summary notes resulted in a very accurate model, because the diagnosis was in that discharge summary.  Because of this, 2 ICD-10 codes that related to the initial diagnoses were chosen and then the model was trained using those.  The final model utilizes a count vectorizer and only considers discharge summary notes to identify 2 ICD-10 codes - I61.9 and K92.2.  This binary classification model has an accuracy of .94.
 
 
-Additional information on model building and iterations can be found [here](Reports/Report_Notebook /MVP_report.ipynb)
+Additional information on model building and iterations can be found [here](Reports/Report_Notebook/MVP_report.ipynb)
 
 
 ## Conclusions and Recommendations 
