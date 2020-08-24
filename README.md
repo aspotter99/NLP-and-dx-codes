@@ -14,11 +14,11 @@ Model and analysis by Amanda S. Potter
 
 ## Repo Structure and Directory
 - [Notebooks](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/Notebooks)
-- [Data](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/data)
-- [References](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/references)
+- [Data](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/Data)
+- [References](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/References)
 - [Reports](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/Reports)
 - [src](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/src)
-- [Presentation](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/MVP_pres.pdf)
+- [Presentation](https://github.com/aspotter99/NLP-and-dx-codes/Reports/Using NLP to Identify Diagnosis Codes.pdf)
 - [Project Conda Environment](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/NLP.yml)
 
 ## Introduction 
