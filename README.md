@@ -18,7 +18,7 @@ Model and analysis by Amanda S. Potter
 - [References](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/References)
 - [Reports](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/Reports)
 - [src](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/src)
-- [Presentation](https://github.com/aspotter99/NLP-and-dx-codes/Reports/Using\ NLP\ to\ Identify\ Diagnosis\ Codes.pdf)
+- [Presentation](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/Reports/Using_NLP_to_Identify_Diagnosis_Codes.pdf)
 - [Project Conda Environment](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/NLP.yml)
 
 ## Introduction 
@@ -31,7 +31,7 @@ This project aims to use Natural Language Processing to correctly predict an ICD
 ## Data Set
 Data used in this project was obtained from https://mimic.physionet.org
 
-MIMIC-IV, a freely accessible critical care database. Johnson AEW, Pollard TJ, Shen L, Lehman L, Feng M, Ghassemi M, Moody B, Szolovits P, Celi LA, and Mark RG. Scientific Data (2016). DOI: 10.1038/sdata.2016.35. Available from: http://www.nature.com/articles/sdata201635
+MIMIC-III, a freely accessible critical care database. Johnson AEW, Pollard TJ, Shen L, Lehman L, Feng M, Ghassemi M, Moody B, Szolovits P, Celi LA, and Mark RG. Scientific Data (2016). DOI: 10.1038/sdata.2016.35. Available from: http://www.nature.com/articles/sdata201635
 
 Additional information on the specific data used for this project is outlined [here](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/Data/README.md)
 
