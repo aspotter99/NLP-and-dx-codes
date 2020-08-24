@@ -18,7 +18,7 @@ Model and analysis by Amanda S. Potter
 - [References](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/References)
 - [Reports](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/Reports)
 - [src](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/src)
-- [Presentation](https://github.com/aspotter99/NLP-and-dx-codes/Reports/Using NLP to Identify Diagnosis Codes.pdf)
+- [Presentation](https://github.com/aspotter99/NLP-and-dx-codes/Reports/Using\ NLP\ to\ Identify\ Diagnosis\ Codes.pdf)
 - [Project Conda Environment](https://github.com/aspotter99/NLP-and-dx-codes/tree/master/NLP.yml)
 
 ## Introduction 
